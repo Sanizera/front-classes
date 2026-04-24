@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome Completo: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="age">Idade: </label>
+            <input type="number" name="age" id="age">
+        </div>
+        <hr>
+        <div>
+            <label for="city">Cidade: </label>
+            <select name="city" id="city">
+                <option value="1">Balneário Camboriú</option>
+                <option value="2">Itajaí</option>
+                <option value="3">Itapema</option>
+                <option value="4">Camboriú</option>
+                <option value="5">Blumenau</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Mensagem: </label>
+            <textarea name="message" id="message" rows="1"></textarea>
+        </div>
+        <div>
+            <label for="label_sexo">Sexo:</label>
+            <div>
+                <input type="radio" name="sexo" id="sexo_m" value="m">
+                <label for="sexo_m">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="sexo_f" value="f">
+                <label for="sexo_f">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="sexo_o" value="o">
+                <label for="sexo_o">Outro</label>
+            </div>
+        </div>
+        <button type="submit">Enviar dados</button>  
+    </form>
+</body>
+</html>
