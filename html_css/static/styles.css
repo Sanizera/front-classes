@@ -1,13 +1,4 @@
-*{
-    padding: 0;
-    margin:0;
-    list-style: none;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
+
 .main-header{
     background-color: rgb(43, 43, 43);
     display: flex;
@@ -36,7 +27,9 @@
 .main-footer{
     background-color: rgb(43, 43, 43);
 }
-
+.main-nav{
+    width: 280px;
+}
 /* Grid */
 
 .col-1{
